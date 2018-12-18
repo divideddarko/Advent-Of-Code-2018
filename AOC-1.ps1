@@ -10,4 +10,3 @@ $a | ForEach-Object {
      }
 }
 Write-Host $b
-
