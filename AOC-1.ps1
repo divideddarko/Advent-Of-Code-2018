@@ -1,4 +1,4 @@
-$a = Get-Content C:\users\user\desktop\input.txt
+$a = Get-Content $ENV:USERPROFILE\desktop\input.txt
 $b = 0
 
 $a | ForEach-Object {
@@ -10,3 +10,4 @@ $a | ForEach-Object {
      }
 }
 Write-Host $b
+
